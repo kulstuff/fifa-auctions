@@ -1,0 +1,57 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+hr{
+    background-color: white;
+}
+.dashboard{
+    background-color: black;
+    height: 100vh;
+    color: white;
+
+    &__player-name{
+        text-align: center;
+        padding: 2rem;
+        padding-bottom: .5rem;
+    }
+
+    &__player-stats{
+        color: white;
+        padding: 1rem 0;
+    }
+
+    &__player-budget{
+        padding: 1.5rem 0;
+        text-align: center;
+    }
+
+    &__table-wrap{
+        max-height: 60vh;
+        overflow: scroll;
+    }
+
+    &__player-team{
+        text-align: center;
+        &--header{
+        padding: 0rem .9rem;
+        background-color: white;
+        }
+        &--item{
+            padding: 0rem .9rem;
+            background-color: white;
+        }
+    }
+}
+
+
+.activity{
+    &__fifa-card{
+        font-family: 'Exo 2',sans-serif;
+        margin-top: 5rem;
+        -webkit-clip-path: polygon(0% 15%, 12% 9%,50% 0, 19% 2%, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
+        clip-path: polygon(0% 15%, 12% 9%, 19% 2%,50% 0, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
+        background-color: gold;
+        width: 185px;
+        height: 281px;
+    }
+}
