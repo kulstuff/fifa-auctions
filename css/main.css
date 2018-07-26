@@ -684,11 +684,82 @@ hr {
       padding: 0rem .9rem;
       background-color: white; }
 
-.activity__fifa-card {
-  font-family: 'Exo 2',sans-serif;
+.activity__fifa-card--left {
   margin-top: 5rem;
-  -webkit-clip-path: polygon(0% 15%, 12% 9%, 50% 0, 19% 2%, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
-  clip-path: polygon(0% 15%, 12% 9%, 19% 2%, 50% 0, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
-  background-color: gold;
+  -webkit-clip-path: polygon(17% 2%, 23% 0, 23% 94%, 0 88%, 0 16%, 12% 10%);
+  clip-path: polygon(17% 2%, 23% 0, 23% 94%, 0 88%, 0 16%, 12% 10%);
+  background-image: linear-gradient(180deg, #AD8F3B, #FFF0AA 25%, #AD8F3B);
   width: 185px;
-  height: 281px; }
+  height: 281px;
+  float: left; }
+
+.activity__fifa-card--right {
+  margin-top: 5rem;
+  -webkit-clip-path: polygon(23% 0, 77% 0, 83% 2%, 88% 10%, 100% 16%, 100% 88%, 50% 100%, 23% 94%);
+  clip-path: polygon(23% 0, 77% 0, 83% 2%, 88% 10%, 100% 16%, 100% 88%, 50% 100%, 23% 94%);
+  background-image: linear-gradient(180deg, #DBC371, #F9ECBF 20%, #DBC371 50%, #DBC369);
+  width: 185px;
+  height: 281px;
+  position: relative; }
+
+.fifa-card {
+  font-family: 'IBM Plex Sans', sans-serif; }
+  .fifa-card__ovr {
+    padding-top: 5rem;
+    padding-left: .2rem; }
+  .fifa-card__pos {
+    padding: 0rem 1rem; }
+  .fifa-card__name {
+    padding-top: 4.5rem;
+    text-transform: uppercase;
+    position: absolute;
+    padding-left: 6rem;
+    text-align: center; }
+  .fifa-card__stats--pac-value {
+    position: absolute;
+    padding-left: 6rem;
+    padding-top: 16rem; }
+  .fifa-card__stats--pac-text {
+    position: absolute;
+    padding-left: 8rem;
+    padding-top: 16rem; }
+  .fifa-card__stats--sho-value {
+    position: absolute;
+    padding-left: 12rem;
+    padding-top: 16rem; }
+  .fifa-card__stats--sho-text {
+    position: absolute;
+    padding-left: 14rem;
+    padding-top: 16rem; }
+  .fifa-card__stats--pas-value {
+    position: absolute;
+    padding-left: 6rem;
+    padding-top: 19rem; }
+  .fifa-card__stats--pas-text {
+    position: absolute;
+    padding-left: 8rem;
+    padding-top: 19rem; }
+  .fifa-card__stats--dri-value {
+    position: absolute;
+    padding-left: 12rem;
+    padding-top: 19rem; }
+  .fifa-card__stats--dri-text {
+    position: absolute;
+    padding-left: 14rem;
+    padding-top: 19rem; }
+  .fifa-card__stats--def-value {
+    position: absolute;
+    padding-left: 6rem;
+    padding-top: 22rem; }
+  .fifa-card__stats--def-text {
+    position: absolute;
+    padding-left: 8rem;
+    padding-top: 22rem; }
+  .fifa-card__stats--phy-value {
+    position: absolute;
+    padding-left: 12rem;
+    padding-top: 22rem; }
+  .fifa-card__stats--phy-text {
+    position: absolute;
+    padding-left: 14rem;
+    padding-top: 22rem; }
