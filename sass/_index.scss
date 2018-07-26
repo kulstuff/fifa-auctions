@@ -45,13 +45,116 @@ hr{
 
 
 .activity{
-    &__fifa-card{
-        font-family: 'Exo 2',sans-serif;
+    &__fifa-card--left{
         margin-top: 5rem;
-        -webkit-clip-path: polygon(0% 15%, 12% 9%,50% 0, 19% 2%, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
-        clip-path: polygon(0% 15%, 12% 9%, 19% 2%,50% 0, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
-        background-color: gold;
+        -webkit-clip-path: polygon(17% 2%, 23% 0, 23% 94%, 0 88%, 0 16%, 12% 10%);
+        clip-path: polygon(17% 2%, 23% 0, 23% 94%, 0 88%, 0 16%, 12% 10%);
+        background-image: linear-gradient(180deg,#AD8F3B,#FFF0AA 25%,#AD8F3B);
         width: 185px;
         height: 281px;
+        float: left;
+       
+    }
+    &__fifa-card--right{
+        margin-top: 5rem;
+        -webkit-clip-path: polygon(23% 0, 77% 0, 83% 2%, 88% 10%, 100% 16%,100% 88%, 50% 100%, 23% 94%);
+        clip-path: polygon(23% 0, 77% 0, 83% 2%, 88% 10%, 100% 16%,100% 88%, 50% 100%, 23% 94%);
+        background-image: linear-gradient(180deg, #DBC371, #F9ECBF 20%,#DBC371 50%,#DBC369);
+        width: 185px;
+        height: 281px;
+        position: relative;
+    }
+}
+
+.fifa-card{
+    font-family: 'IBM Plex Sans', sans-serif;
+    &__ovr{
+        padding-top: 5rem;
+        padding-left: .2rem;
+    }
+    &__pos{
+        padding: 0rem 1rem;
+    }
+    &__name{
+        padding-top: 4.5rem;
+        text-transform: uppercase;
+        position: absolute;
+        padding-left: 6rem;
+        text-align: center;
+    }
+    &__stats{
+        &--pac{
+            &-value{
+            position: absolute;
+            padding-left: 6rem;
+            padding-top: 16rem;
+            }
+            &-text{
+                position: absolute;
+                padding-left: 8rem;
+                padding-top: 16rem;
+            }
+        }
+        &--sho{ 
+            &-value{
+            position: absolute;
+            padding-left: 12rem;
+            padding-top: 16rem;
+            }
+            &-text{
+                position: absolute;
+                padding-left: 14rem;
+                padding-top: 16rem;
+            }
+        }
+        &--pas{ 
+            &-value{
+            position: absolute;
+            padding-left: 6rem;
+            padding-top: 19rem;
+            }
+            &-text{
+                position: absolute;
+                padding-left: 8rem;
+                padding-top: 19rem;
+            }
+        }
+        &--dri{
+            &-value{
+                position: absolute;
+                padding-left: 12rem;
+                padding-top: 19rem;
+                }
+                &-text{
+                    position: absolute;
+                    padding-left: 14rem;
+                    padding-top: 19rem;
+                }
+        }
+        &--def{
+            &-value{
+            position: absolute;
+            padding-left: 6rem;
+            padding-top: 22rem;
+            }
+            &-text{
+                position: absolute;
+                padding-left: 8rem;
+                padding-top: 22rem;
+            }
+        }
+        &--phy{
+            &-value{
+                position: absolute;
+                padding-left: 12rem;
+                padding-top: 22rem;
+                }
+                &-text{
+                    position: absolute;
+                    padding-left: 14rem;
+                    padding-top: 22rem;
+                }
+        }
+
     }
 }
