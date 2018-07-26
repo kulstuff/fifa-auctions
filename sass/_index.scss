@@ -1,0 +1,27 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+hr{
+    background-color: white;
+}
+.dashboard{
+    background-color: black;
+    height: 100vh;
+    color: white;
+
+    &__player-name{
+        text-align: center;
+        padding: 2rem;
+        padding-bottom: .5rem;
+    }
+
+    &__player-stats{
+        color: white;
+        padding: 1rem 0;
+    }
+
+    &__player-budget{
+        padding: 1.5rem 0;
+        text-align: center;
+    }
+}
