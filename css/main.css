@@ -4,7 +4,6 @@
   margin: 0;
   text-decoration: none;
   font-size: 62.5%;
-  font-family: 'Raleway', sans-serif;
   color: black; }
 
 @media screen and (max-width: 900px) {
@@ -38,6 +37,9 @@
 
 .centre-text {
   text-align: center; }
+
+.clear {
+  clear: both; }
 
 @media screen and (min-width: 0px) {
   .display1 {
@@ -670,3 +672,23 @@ hr {
   .dashboard__player-budget {
     padding: 1.5rem 0;
     text-align: center; }
+  .dashboard__table-wrap {
+    max-height: 60vh;
+    overflow: scroll; }
+  .dashboard__player-team {
+    text-align: center; }
+    .dashboard__player-team--header {
+      padding: 0rem .9rem;
+      background-color: white; }
+    .dashboard__player-team--item {
+      padding: 0rem .9rem;
+      background-color: white; }
+
+.activity__fifa-card {
+  font-family: 'Exo 2',sans-serif;
+  margin-top: 5rem;
+  -webkit-clip-path: polygon(0% 15%, 12% 9%, 50% 0, 19% 2%, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
+  clip-path: polygon(0% 15%, 12% 9%, 19% 2%, 50% 0, 81% 2%, 88% 9%, 100% 15%, 100% 85%, 65% 91%, 50% 100%, 50% 100%, 35% 91%, 0% 85%);
+  background-color: gold;
+  width: 185px;
+  height: 281px; }
