@@ -712,12 +712,27 @@ hr {
     padding-left: .2rem; }
   .fifa-card__pos {
     padding: 0rem 1rem; }
+  .fifa-card__club {
+    width: 3rem;
+    margin-left: .75rem; }
+  .fifa-card__country {
+    display: block;
+    width: 3rem;
+    margin-left: .75rem;
+    margin-top: 1rem; }
+  .fifa-card__photo {
+    width: 10rem;
+    position: absolute;
+    padding-top: 2.5rem;
+    left: 35%; }
   .fifa-card__name {
-    padding-top: 4.5rem;
+    margin-top: 12.5rem;
     text-transform: uppercase;
     position: absolute;
-    padding-left: 6rem;
-    text-align: center; }
+    padding-left: 4.5rem;
+    text-align: center;
+    background-color: #ceb969;
+    width: 100%; }
   .fifa-card__stats--pac-value {
     position: absolute;
     padding-left: 6rem;

@@ -79,12 +79,30 @@ hr{
     &__pos{
         padding: 0rem 1rem;
     }
+    &__club{
+        width: 3rem;
+        margin-left: .75rem;
+    }
+    &__country{
+        display: block;
+        width: 3rem;
+        margin-left: .75rem;
+        margin-top: 1rem;
+    }
+    &__photo{
+        width: 10rem;
+        position: absolute;
+        padding-top: 2.5rem;
+        left: 35%;
+    }
     &__name{
-        padding-top: 4.5rem;
+        margin-top: 12.5rem;
         text-transform: uppercase;
         position: absolute;
-        padding-left: 6rem;
+        padding-left: 4.5rem;
         text-align: center;
+        background-color: #ceb969;
+        width: 100%;
     }
     &__stats{
         &--pac{
